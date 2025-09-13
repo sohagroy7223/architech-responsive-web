@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+.work-sans-font {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.navber {
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-item {
+    list-style: none;
+    margin-right: 30px;
+}
+.nav-link {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+}
+.navber,
+.banner {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.brand {
+    font-size: 2.9rem;
+    font-weight: bold;
+}
+
+/* shared style */
+.bg-color {
+    background-color: rgba(255, 229, 14, 0.1);
+}
+.desplay-flex {
+    display: flex;
+}
+.dark-01 {
+    color: #131313;
+}
+.dark-02 {
+    color: #424242;
+}
+.dark-03 {
+    color: #727272;
+}
+/* bannet style */
+.banner-content {
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.banner-title {
+    font-size: 4rem;
+    font-weight: bold;
+}
+.btn-primary {
+    background-color: #ff900e;
+    color: white;
+    padding: 20px 25px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+}
