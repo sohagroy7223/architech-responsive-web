@@ -31,8 +31,18 @@
 }
 
 /* shared style */
+
 main > section {
     margin-top: 130px;
+}
+section {
+    max-width: 1440px;
+}
+.section-title {
+    max-width: 464px;
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin: auto;
 }
 .bg-color {
     background-color: rgba(255, 229, 14, 0.1);
@@ -76,7 +86,7 @@ main > section {
 .teams {
     max-width: 1440px;
     margin: 0 auto;
-
+    justify-content: center;
     align-items: center;
 }
 .teams-image-container {
@@ -88,15 +98,51 @@ main > section {
     max-width: 530px;
     margin-left: 73px;
 }
-.features-title {
-    font-size: 2.8rem;
-    font-weight: bold;
-}
+
 #Quick-list {
     font-weight: 500;
 }
 .text-primary {
     color: #ff900e;
+}
+.container {
+    display: flex;
+}
+/* feature style  */
+.feature {
+    margin: 0 auto;
+    /* margin-top: 130px; */
+    gap: 140px;
+    padding-left: 20px;
+}
+#feature-style {
+    border-left: 5px solid #ff900e;
+    padding-left: 20px;
+}
+.feature-card {
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    max-width: 586px;
+    border-radius: 8px;
+    box-shadow: 0 4 30 0 rgba(0, 0, 0, 0.06);
+    margin-top: 10px;
+}
+.feature-description {
+    max-width: 550px;
+}
+.feature-title {
+    font-size: 20px;
+    font-weight: 600;
+}
+/* experience- style */
+#experience-batch {
+    padding: 45px 40px;
+    margin-top: -100px;
+    margin-left: -100px;
+}
+
+.expreience-year {
+    font-size: 4rem;
+    font-weight: 700;
 }
 
 /* mobile device responsive */
@@ -104,7 +150,8 @@ main > section {
 @media screen and (max-width: 576px) {
     .navber,
     .nav-links,
-    .teams {
+    .teams,
+    .feature {
         flex-direction: column;
     }
 
