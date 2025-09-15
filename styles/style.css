@@ -42,7 +42,8 @@ section {
     max-width: 464px;
     font-size: 2.8rem;
     font-weight: bold;
-    margin: auto;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
 .bg-color {
     background-color: rgba(255, 229, 14, 0.1);
@@ -130,7 +131,7 @@ section {
     max-width: 550px;
 }
 .feature-title {
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 600;
 }
 /* experience- style */
@@ -144,6 +145,34 @@ section {
     font-size: 4rem;
     font-weight: 700;
 }
+.feature-architech img {
+    width: 100%;
+}
+/* fact section related style */
+.fact-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.fact-card {
+    width: 240px;
+    height: 240px;
+    border: 1px solid #ff900e;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.fact-number {
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin: auto;
+}
+.fact-name {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: auto;
+}
 
 /* mobile device responsive */
 
@@ -154,9 +183,19 @@ section {
     .feature {
         flex-direction: column;
     }
+    .fact-container {
+        display: grid;
+        justify-items: center;
+        gap: 15px;
+        grid-template-columns: 1fr;
+    }
 
     .teams-image-container {
         grid-template-columns: repeat(1, 1fr);
+    }
+    #experience-batch {
+        margin-top: auto;
+        margin-left: auto;
     }
 }
 
